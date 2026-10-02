@@ -1,0 +1,24 @@
+{
+  "name": "bebe-pro",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Lightning-fast self-hosted hub: 50+ games, 4 proxies, browser, chat",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "NODE_ENV=development node server.mjs"
+  },
+  "keywords": [
+    "games",
+    "proxy",
+    "ultraviolet",
+    "scramjet",
+    "self-hosted",
+    "browser"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.0"
+  }
+}
